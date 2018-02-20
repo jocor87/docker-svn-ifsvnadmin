@@ -3,7 +3,7 @@
 * Apache2
 * PHP 5.6
 * Apache Subversion
-* iF.SVNAdmin (Credits: http://svnadmin.insanefactory.com/)
+* iF.SVNAdmin (Credits: http://svnadmin.insanefactory.com/. It's a web interface for subversion repositories and users management . http://svnadmin.insanefactory.com/screenshots/)
 
 ## Volumes
 
