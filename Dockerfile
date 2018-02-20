@@ -15,6 +15,10 @@ RUN apt update && \
     rm -rf /var/lib/apt/lists/* && \
     mkdir -p /home/ubuntu/svndata && \
     mkdir /etc/apache2/conf && \
+    touch /etc/apache2/conf/dav_svn.passwd && \
+    touch /etc/apache2/conf/access_svn && \
+    chown www-data /etc/apache2/conf/dav_svn.passwd && \
+    chown www-data /etc/apache2/conf/access_svn && \
     a2dismod -f autoindex
 
 # Manually set up the apache environment variables
