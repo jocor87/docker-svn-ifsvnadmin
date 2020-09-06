@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:20.04
 MAINTAINER jcordero1987@gmail.com
 ENV DEBIAN_FRONTEND noninteractive
 WORKDIR /tmp
