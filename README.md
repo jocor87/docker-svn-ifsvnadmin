@@ -1,5 +1,5 @@
 # Components
-* Base Image: Ubuntu 16.04
+* Base Image: Ubuntu 20.04
 * Apache2
 * PHP 5.6
 * Apache Subversion
